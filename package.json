@@ -1,0 +1,16 @@
+{
+  "name": "cypress_proj",
+  "version": "1.0.0",
+  "description": "a project to use cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "test:headless": "cypress run"
+  },
+  "author": "Gerald Aqui",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.22.3",
+    "cypress": "^8.3.0"
+  }
+}
